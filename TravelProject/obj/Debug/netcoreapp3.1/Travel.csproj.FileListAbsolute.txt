@@ -145,3 +145,12 @@ C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Booking\Index.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Confirm.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Failed.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Pages\AboutUs.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Pages\ContactUs.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Pages\ComingSoon.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Blog\BlogDetail.cshtml.g.cs

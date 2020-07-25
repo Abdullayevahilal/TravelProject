@@ -6,24 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Travel.Controllers
 {
-    public class CheckoutController : Controller
+    public class BlogController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult Confirm()
+        public IActionResult BlogDetail()
         {
             return View();
-
         }
-        public IActionResult Failed()
-        {
-            return View();
-
-        }
-
-
-
+       
     }
 }
