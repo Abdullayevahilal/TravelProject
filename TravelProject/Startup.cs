@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Repository.Data;
 using Repository.Repositories.AuthRepositories;
+using Repository.Repositories.ShoppingRepositories;
 
 namespace TravelProject
 {
@@ -31,6 +32,7 @@ namespace TravelProject
                x => x.MigrationsAssembly("Repository")
                 ));
             services.AddTransient<IAuthRepository, AuthRepository>();
+            services.AddTransient<IDepartmentRepository, DepartmentRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
