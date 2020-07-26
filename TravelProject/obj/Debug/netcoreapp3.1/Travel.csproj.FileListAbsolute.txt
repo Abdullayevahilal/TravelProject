@@ -154,3 +154,11 @@ C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Pages\ComingSoon.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Blog\BlogDetail.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\bin\Debug\netcoreapp3.1\CryptoHelper.dll
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Account\UserDashboard.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Modals\_EditProfile.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Modals\_EditAddress.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Modals\_EditPassword.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Modals\_EditPhone.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Modals\_AddCard.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Modals\_DeleteAccount.cshtml.g.cs
