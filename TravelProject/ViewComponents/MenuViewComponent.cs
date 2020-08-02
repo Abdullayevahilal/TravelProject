@@ -25,7 +25,7 @@ namespace Travel.ViewComponents
         {
             var departments = _departmentRepository.GetDepartmentsWithCategory();
             var model = _mapper.Map<IEnumerable<Department>, IEnumerable<DepartmentViewModel>>(departments);
-            return View();
+            return View(model);
         }
        
     }
