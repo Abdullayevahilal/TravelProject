@@ -1,0 +1,2 @@
+C:\Users\Hilal\source\repos\TravelProject\Repository\obj\Debug\netstandard2.0\ddd.AssemblyInfoInputs.cache
+C:\Users\Hilal\source\repos\TravelProject\Repository\obj\Debug\netstandard2.0\ddd.AssemblyInfo.cs

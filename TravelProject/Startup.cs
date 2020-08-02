@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Repository.Data;
 using Repository.Repositories.AuthRepositories;
 using Repository.Repositories.ShoppingRepositories;
+using AutoMapper;
 
 namespace TravelProject
 {
@@ -28,6 +29,7 @@ namespace TravelProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddAutoMapper(typeof(Startup));
             services.AddDbContext<TravelDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default"),
                x => x.MigrationsAssembly("Repository")
                 ));
