@@ -8367,20 +8367,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hilal\\.nuget\\packages\\": {}
+    "C:\\Users\\Firuza\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\TravelProject\\Travel.csproj",
+      "projectUniqueName": "C:\\Users\\Firuza\\Desktop\\FinalProject\\TravelProject\\TravelProject\\Travel.csproj",
       "projectName": "Travel",
-      "projectPath": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\TravelProject\\Travel.csproj",
-      "packagesPath": "C:\\Users\\Hilal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\TravelProject\\obj\\",
+      "projectPath": "C:\\Users\\Firuza\\Desktop\\FinalProject\\TravelProject\\TravelProject\\Travel.csproj",
+      "packagesPath": "C:\\Users\\Firuza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Firuza\\Desktop\\FinalProject\\TravelProject\\TravelProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Hilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Firuza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8392,8 +8397,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Hilal\\source\\repos\\TravelProject\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\Repository\\Repository.csproj"
+            "C:\\Users\\Firuza\\Desktop\\FinalProject\\TravelProject\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Firuza\\Desktop\\FinalProject\\TravelProject\\Repository\\Repository.csproj"
             }
           }
         }
