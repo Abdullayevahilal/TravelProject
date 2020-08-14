@@ -25,6 +25,9 @@ namespace Repository.Models
         public decimal Price { get; set; }
 
         public decimal? DiscountPrice { get; set; }
+       
+        [Required]
+        public bool IsTopSelling { get; set; }
 
         public byte StarCount { get; set; }
         public Category Category { get; set; }

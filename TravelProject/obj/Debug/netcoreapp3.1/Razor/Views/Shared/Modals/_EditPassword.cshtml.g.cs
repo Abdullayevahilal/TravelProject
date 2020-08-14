@@ -19,8 +19,15 @@ using TravelProject;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Hilal\source\repos\TravelProject\TravelProject\Views\_ViewImports.cshtml"
+using Travel.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5bfcb74991cfd1be026d979ede7a746a77483a97", @"/Views/Shared/Modals/_EditPassword.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"35ea929c6bd87ad85a9dedd0487da87405274fd2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"670556dbf1be6ca9b34028f08c3b7cf9557c6bb3", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Modals__EditPassword : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -61,7 +68,7 @@ using TravelProject;
             </div>
             <div class=""modal-body"">
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5bfcb74991cfd1be026d979ede7a746a77483a973807", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5bfcb74991cfd1be026d979ede7a746a77483a973991", async() => {
                 WriteLiteral(@"
                     <div class=""form-row"">
                         <div class=""form-group col-12"">
@@ -114,7 +121,7 @@ using TravelProject;
             </div>
             <div class=""modal-body"">
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5bfcb74991cfd1be026d979ede7a746a77483a976910", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5bfcb74991cfd1be026d979ede7a746a77483a977094", async() => {
                 WriteLiteral(@"
                     <div class=""form-group"">
                         <label for=""name"">name on card</label>

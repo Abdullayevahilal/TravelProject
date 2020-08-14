@@ -165,3 +165,5 @@ C:\Users\Hilal\source\repos\TravelProject\TravelProject\bin\Debug\netcoreapp3.1\
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Travel.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\TopSelling\Default.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Product\_SingleProduct.cshtml.g.cs

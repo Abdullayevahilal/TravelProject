@@ -12,8 +12,11 @@ namespace Travel.Mapping
     {
         public MappingProfile()
         {
-            CreateMap < Category, CategoryViewModel > ();
+            CreateMap <Category, CategoryViewModel > ();
             CreateMap<Department, DepartmentViewModel>();
+            CreateMap<Product, ProductViewModel>();
+            CreateMap<Label, LabelViewModel>();
+            CreateMap<Discount, DiscountViewModel>();
         }
     }
 }
