@@ -243,6 +243,9 @@ namespace Repository.Migrations
                     b.Property<decimal?>("DiscountPrice")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<bool>("IsTopSelling")
+                        .HasColumnType("bit");
+
                     b.Property<int?>("LabelId")
                         .HasColumnType("int");
 

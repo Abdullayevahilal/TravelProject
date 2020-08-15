@@ -17,6 +17,33 @@ namespace Repository.Repositories.ShoppingRepositories
             _context = context;
         }
 
+        public IEnumerable<Product> GetAwesomePackages(int limit)
+        {
+            return _context.Products.Include("Photos")
+                                   .Include("Label")
+                                   .Include("Discounts")
+                                    .Include("Discounts.Discount")
+                                   .Where(p => p.Status)
+                                   .Where(p => p.IsTopSelling)
+                                   .OrderByDescending(p => p.AddedDate)
+                                   .Take(limit)
+                                   .ToList();
+
+        }
+
+        public IEnumerable<Product> GetHoneymoonProducts(int limit)
+        {
+            return _context.Products.Include("Photos")
+                                     .Include("Label")
+                                     .Include("Discounts")
+                                      .Include("Discounts.Discount")
+                                     .Where(p => p.Status)
+                                     .Where(p => p.IsTopSelling)
+                                     .OrderByDescending(p => p.AddedDate)
+                                     .Take(limit)
+                                     .ToList();
+        }
+
         public IEnumerable<Product> GetTopSellingProducts(int limit)
         {
             return _context.Products.Include("Photos")
@@ -29,6 +56,58 @@ namespace Repository.Repositories.ShoppingRepositories
                                     .Take(limit)
                                     .ToList();
 
+        }
+        public IEnumerable<Product> GetSpecialNatureProducts(int limit)
+        {
+            return _context.Products.Include("Photos")
+                                    .Include("Label")
+                                    .Include("Discounts")
+                                     .Include("Discounts.Discount")
+                                    .Where(p => p.Status)
+                                    .Where(p => p.IsTopSelling)
+                                    .OrderByDescending(p => p.AddedDate)
+                                    .Take(limit)
+                                    .ToList();
+
+        }
+
+        public IEnumerable<Product> GetExploreProducts(int limit)
+        {
+              return _context.Products.Include("Photos")
+                                    .Include("Label")
+                                    .Include("Discounts")
+                                     .Include("Discounts.Discount")
+                                    .Where(p => p.Status)
+                                    .Where(p => p.IsTopSelling)
+                                    .OrderByDescending(p => p.AddedDate)
+                                    .Take(limit)
+                                    .ToList();
+        }
+
+        public IEnumerable<Product> GetPopularDestination(int limit)
+        {
+            return _context.Products.Include("Photos")
+                                     .Include("Label")
+                                     .Include("Discounts")
+                                      .Include("Discounts.Discount")
+                                     .Where(p => p.Status)
+                                     .Where(p => p.IsTopSelling)
+                                     .OrderByDescending(p => p.AddedDate)
+                                     .Take(limit)
+                                     .ToList();
+        }
+
+        public IEnumerable<Product> GetBlog(int limit)
+        {
+            return _context.Products.Include("Photos")
+                                  .Include("Label")
+                                  .Include("Discounts")
+                                   .Include("Discounts.Discount")
+                                  .Where(p => p.Status)
+                                  .Where(p => p.IsTopSelling)
+                                  .OrderByDescending(p => p.AddedDate)
+                                  .Take(limit)
+                                  .ToList();
         }
     }
 }
