@@ -26,7 +26,7 @@ namespace TravelProject
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public object ConfigureServices (IServiceCollection services)
         {
             services.AddControllersWithViews();
 
@@ -39,6 +39,8 @@ namespace TravelProject
             services.AddTransient<IAuthRepository, AuthRepository>();
             services.AddTransient<IDepartmentRepository, DepartmentRepository>();
             services.AddTransient<IProductRepository, ProductRepository>();
+            //services.AddTransient<ICategoryRepository, CategoryRepository>;
+          
            
         }
 

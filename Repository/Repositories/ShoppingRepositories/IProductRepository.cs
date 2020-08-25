@@ -14,5 +14,7 @@ namespace Repository.Repositories.ShoppingRepositories
         IEnumerable<Product> GetExploreProducts(int limit);
         IEnumerable<Product> GetPopularDestination(int limit);
         IEnumerable<Product> GetBlog(int limit);
+        IEnumerable<Product> GetProductsByCategoryId(int categoryId, int take, int skip);
+        object GetProductsByCategoryId(int id);
     }
 }

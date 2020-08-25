@@ -21,5 +21,6 @@ namespace Repository.Data
              public DbSet<Setting> Settings { get; set; }
              public DbSet<Slider> Sliders  { get; set; }         
              public DbSet<User> Users { get; set; }
-            }
+             public DbSet<Admin> Admins { get; set; }
+    }
 }

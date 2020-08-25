@@ -109,5 +109,25 @@ namespace Repository.Repositories.ShoppingRepositories
                                   .Take(limit)
                                   .ToList();
         }
+
+        public IEnumerable<Product> GetProductsByCategoryId(int categoryId, int take, int skip)
+        {
+            return _context.Products.Include("Photos")
+                                    .Include("Label")
+                                    .Include("Discounts")
+                                     .Include("Discounts.Discount")
+                                    .Where(p => p.CategoryId == categoryId)
+                                    .Where(p => p.Status)
+                                    .Where(p => p.IsTopSelling)
+                                    .OrderByDescending(p => p.AddedDate)
+                                    .Take(take)
+                                    .Skip(skip)
+                                    .ToList();
+        }
+
+        public object GetProductsByCategoryId(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

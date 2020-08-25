@@ -28,6 +28,8 @@ namespace Repository.Models
        
         [Required]
         public bool IsTopSelling { get; set; }
+        [Required]
+        public bool IsAwsomePack { get; set; }
 
         public byte StarCount { get; set; }
         public Category Category { get; set; }

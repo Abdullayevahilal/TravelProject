@@ -166,10 +166,11 @@ C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\TopSelling\Default.cshtml.g.cs
-C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Product\_SingleProduct.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Product\_SingleProductPartial.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Honeymoon\Default.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\AwesomePackages\Default.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Explore\Default.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\PopularDestination\Default.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\SpecialNature\Default.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Blog\Default.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Product\_AwesomePackagesPartial.cshtml.g.cs
