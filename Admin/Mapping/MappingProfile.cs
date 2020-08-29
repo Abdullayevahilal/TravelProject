@@ -10,8 +10,10 @@ namespace Travel.Mapping
     {
         public MappingProfile()
         {
+            CreateMap<Department, DepartmentViewModel>();
+            CreateMap<DepartmentViewModel, Department>();
             CreateMap <Category, CategoryViewModel > ();
-            CreateMap<Department, DepartmentViewModel>();         
+                   
            
         }
     }

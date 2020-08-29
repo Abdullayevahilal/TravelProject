@@ -105,7 +105,6 @@ C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Admin.dl
 C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Admin.pdb
 C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Admin.genruntimeconfig.cache
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\libman.json
-C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Acount\Login.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Admin.csprojAssemblyReference.cache
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\CryptoHelper.dll
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -150,5 +149,10 @@ C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsof
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Admin.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Admin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Index.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Create.cshtml.g.cs
+C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Edit.cshtml.g.cs

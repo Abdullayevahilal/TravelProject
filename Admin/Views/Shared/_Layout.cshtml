@@ -17,6 +17,9 @@
 
     <!-- Custom styles for this template-->
     <link href="~/css/sb-admin-2.min.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    <link href="~/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
     @RenderSection("Head", required: false)
 
 </head>
@@ -52,7 +55,8 @@
             <hr> class="sidebar-divider">
 
             <!-- Heading -->
-            <div> class="sidebar-heading">
+            <div>
+                class="sidebar-heading">
                 Products
             </div>
             <!-- Nav Item - Pages Collapse Menu -->
@@ -81,7 +85,8 @@
             <hr> class="sidebar-divider">
 
             <!-- Heading -->
-            <div> class="sidebar-heading">
+            <div>
+                class="sidebar-heading">
                 Addons
             </div>
 
@@ -378,6 +383,12 @@
     <!-- Page level custom scripts -->
     <script src="~/js/demo/chart-area-demo.js"></script>
     <script src="~/js/demo/chart-pie-demo.js"></script>
+    <!-- Page level plugins -->
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="~/js/demo/datatables-demo.js"></script>
     @RenderSection("Scripts", required: false)
     @*<script src="~/js/custom.js" asp-append-version="true"></script>*@
 </body>

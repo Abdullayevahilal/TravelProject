@@ -20,5 +20,6 @@ namespace Repository.Models
         public string Token { get; set; }
         [MaxLength(50)]
         public string ForgetToken { get; set; }
+        public string Fullname { get; set; }
     }
 }

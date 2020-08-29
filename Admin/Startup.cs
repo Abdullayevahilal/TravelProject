@@ -14,6 +14,7 @@ using Repository.Repositories.AuthRepositories;
 
 using AutoMapper;
 using Repository.Repositories.AdminRepositories;
+using Repository.Repositories.ShoppingRepositories;
 
 namespace Admin
 {
@@ -37,6 +38,7 @@ namespace Admin
                   x => x.MigrationsAssembly("Repository")));
 
             services.AddTransient<IAdminRepository,AdminRepository>();
+            services.AddTransient<IDepartmentRepository, DepartmentRepository>();
 
         }
 
