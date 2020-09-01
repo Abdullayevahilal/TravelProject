@@ -11,7 +11,7 @@ using Repository.Repositories.ShoppingRepositories;
 
 namespace Admin.Controllers
 { 
-    [TypeFilter(typeof(Auth))]
+    //[TypeFilter(typeof(Auth))]
     public class CategoriesController : Controller
     {
         private Repository.Models.Admin _admin => RouteData.Values["Admin"] as Repository.Models.Admin;

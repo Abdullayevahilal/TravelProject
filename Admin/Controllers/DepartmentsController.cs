@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace Admin.Controllers
 {
-    [TypeFilter(typeof(Auth))]
+    //[TypeFilter(typeof(Auth))]
     public class DepartmentsController : Controller
 
     {
