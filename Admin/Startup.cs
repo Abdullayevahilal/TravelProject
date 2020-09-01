@@ -1,18 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Repository.Data;
-using Repository.Repositories.AuthRepositories;
-
-using AutoMapper;
 using Repository.Repositories.AdminRepositories;
 using Repository.Repositories.ShoppingRepositories;
 
@@ -37,8 +30,9 @@ namespace Admin
                   options.UseSqlServer(Configuration.GetConnectionString("Default"),
                   x => x.MigrationsAssembly("Repository")));
 
-            services.AddTransient<IAdminRepository,AdminRepository>();
+            services.AddTransient<IAdminRepository, AdminRepository>();
             services.AddTransient<IDepartmentRepository, DepartmentRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
 
         }
 

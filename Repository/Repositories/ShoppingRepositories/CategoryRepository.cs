@@ -18,14 +18,38 @@ namespace Repository.Repositories.ShoppingRepositories
             _context = context;
         }
 
+        public Category CreateCategory(Category category)
+        {
+            category.AddedDate = DateTime.Now;
+            _context.Categories.Add(category);
+            _context.SaveChanges();
+            return category;
+        }
+
+        public void DeleteCategory(Category category)
+        {
+            _context.Categories.Remove(category);
+            _context.SaveChanges();
+        }
+
+        public IEnumerable<Category> GetCategories()
+        {
+            return _context.Categories.ToList();
+        }
+
         public Category GetCategoryById(int id)
         {
             return _context.Categories.Include("Department").FirstOrDefault(c => c.Id == id);
         }
 
-        public object GetCategoryById()
+        public void UpdateCategory(Category categoryToUpdate, Category category)
         {
-            throw new NotImplementedException();
+            categoryToUpdate.Status = category.Status;
+            categoryToUpdate.Name = category.Name;
+            categoryToUpdate.ModifiedBy = category.ModifiedBy;
+            categoryToUpdate.ModifiedDate = DateTime.Now;
+
+            _context.SaveChanges();
         }
     }
 }

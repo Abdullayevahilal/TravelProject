@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Admin.Models.Shopping
 {
@@ -11,8 +7,8 @@ namespace Admin.Models.Shopping
         public int Id { get; set; }
         [Required]
         public bool Status { get; set; }
-        [Required(ErrorMessage ="Department name is required")]
-        [MaxLength(50,ErrorMessage = "Department name can be maximum 50 characters")]
+        [Required(ErrorMessage = "Department name is required")]
+        [MaxLength(50, ErrorMessage = "Department name can be maximum 50 characters")]
         public string Name { get; set; }
     }
 }

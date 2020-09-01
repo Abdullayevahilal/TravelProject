@@ -2,14 +2,10 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Routing;
 using Repository.Repositories.AdminRepositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Admin.Filter
 {
-    public class Auth: ActionFilterAttribute
+    public class Auth : ActionFilterAttribute
     {
         private readonly IAdminRepository _adminRepository;
 

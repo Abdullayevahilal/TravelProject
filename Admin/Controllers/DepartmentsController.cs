@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Admin.Filter;
+﻿using Admin.Filter;
 using Admin.Models.Shopping;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Models;
 using Repository.Repositories.ShoppingRepositories;
+using System.Collections.Generic;
 
 namespace Admin.Controllers
 {
@@ -35,14 +32,14 @@ namespace Admin.Controllers
         {
             return View();
         }
-            [HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(DepartmentViewModel model)
         {
             if (ModelState.IsValid)
             {
                 Department department = _mapper.Map<DepartmentViewModel, Department>(model);
-                department.AddedBy = _admin.Fullname;
+                department.AddedBy = _admin.Fulname;
 
                 _departmentRepository.CreateDepartment(department);
 
@@ -68,7 +65,7 @@ namespace Admin.Controllers
             if (ModelState.IsValid)
             {
                 Department department = _mapper.Map<DepartmentViewModel, Department>(model);
-                department.ModifiedBy = _admin.Fullname;
+                department.ModifiedBy = _admin.Fulname;
 
                 Department deparmentToUpdate = _departmentRepository.GetDepartmentById(model.Id);
 
