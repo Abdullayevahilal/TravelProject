@@ -1,4 +1,4 @@
-﻿
+﻿@model AccountViewModel
 @{
     ViewData["Title"] = "Register";
 }
@@ -45,20 +45,35 @@
                             <h6>OR</h6>
                         </div>
                     </div>
-                    <form>
+                    <form method="post" asp-action="register">
                         <div class="form-group">
-                            <label for="name">Full name</label>
-                            <input type="email" class="form-control" id="name" placeholder="Enter your name">
+                            <label for="name">Name</label>
+                            <input asp-for="Register.Name" class="form-control" id="name" placeholder="Name">
+                            <span asp-validation-for="Register.Name"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Surname</label>
+                            <input asp-for="Register.Surname" class="form-control" id="name" placeholder="Surname">
+                            <span asp-validation-for="Register.Surname"></span>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <input asp-for="Register.Email" class="form-control" id="exampleInputEmail1"
                                    placeholder="Enter email address">
+                            <span asp-validation-for="Register.Email"></span>
+
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
+                            <input asp-for="Register.Password" class="form-control" id="exampleInputPassword1"
                                    placeholder="Password">
+                            <span asp-validation-for="Register.Password"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password confirm</label>
+                            <input asp-for="Register.PasswordConfirm" class="form-control" id="exampleInputPassword1"
+                                   placeholder="Password">
+                            <span asp-validation-for="Register.PasswordConfirm"></span>
                         </div>
                         <div class="button-bottom">
                             <button type="submit" class="w-100 btn btn-solid">create account</button>
@@ -77,3 +92,8 @@
     </div>
 </section>
 <!-- section end -->
+
+@section Scripts{
+    <script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

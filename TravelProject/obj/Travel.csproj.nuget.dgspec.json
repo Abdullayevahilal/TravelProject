@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hilal\\source\\repos\\TravelProject\\TravelProject\\Travel.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\TravelProject\\Travel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hilal\\source\\repos\\TravelProject\\Repository\\Repository.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Hilal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +46,12 @@
               "target": "Package",
               "version": "[3.1.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.6, )"
@@ -73,21 +79,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hilal\\source\\repos\\TravelProject\\TravelProject\\Travel.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\TravelProject\\Travel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\TravelProject\\Travel.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\TravelProject\\Travel.csproj",
         "projectName": "Travel",
-        "projectPath": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\TravelProject\\Travel.csproj",
-        "packagesPath": "C:\\Users\\Hilal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\TravelProject\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\TravelProject\\Travel.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\TravelProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +106,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Hilal\\source\\repos\\TravelProject\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Hilal\\source\\repos\\TravelProject\\Repository\\Repository.csproj"
+              "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Final Project\\TravelProject\\Repository\\Repository.csproj"
               }
             }
           }
@@ -124,6 +130,16 @@
               "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
@@ -152,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

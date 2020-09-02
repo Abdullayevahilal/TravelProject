@@ -44,7 +44,6 @@ namespace Repository.Repositories.AuthRepositories
         _context.SaveChanges();
         return user;
 
-        throw new NotImplementedException();
     }
 
     public void UpdateToken(int id, string token)
