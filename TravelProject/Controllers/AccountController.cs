@@ -38,7 +38,15 @@ namespace Travel.Controllers
                 user.Status = true;
                 _authRepository.Register(user);
 
-                return RedirectToAction("index", "home");
+                Response.Cookies.Delete("token");
+
+                Response.Cookies.Append("token", Guid.NewGuid().ToString(), new Microsoft.AspNetCore.Http.CookieOptions
+                {
+                    HttpOnly = true,
+                    Expires = DateTime.Now.AddYears(1)
+                });
+
+                return RedirectToAction("login");
             }
             return View("~/Views/Account/Register.cshtml",new AccountViewModel{
 
@@ -47,7 +55,33 @@ namespace Travel.Controllers
         }
         public IActionResult Login(LoginViewModel login)
         {
-            return Ok(login);
+           
+            if(ModelState.IsValid)
+            {
+                var user = _authRepository.Login(login.Email, login.Password);
+
+                if(user != null)
+                {
+                    user.Token = Guid.NewGuid().ToString();
+                    _authRepository.UpdateToken(user.Id,user.Token);
+                    Response.Cookies.Delete("token");
+                    Response.Cookies.Append("token", Guid.NewGuid().ToString(), new Microsoft.AspNetCore.Http.CookieOptions
+                    {
+                        HttpOnly = true,
+                        Expires = DateTime.Now.AddYears(1)
+                    });
+
+                    Request.Cookies.TryGetValue("token", out string token);
+                    return RedirectToAction("userdashboard");
+
+                }
+                ModelState.AddModelError("Login.Password", "Wrong email or password");
+            }
+            return View("~/Views/Account/Login.cshtml", new AccountViewModel
+            {
+
+                Login = login
+            });
         }
         public IActionResult UserDashboard()
         {
