@@ -74,9 +74,8 @@
                             <span asp-validation-for="Login.Password"></span>
                         </div>
                         <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <input asp-for="Login.RememberMe" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">remember me</label>
-                            <input asp-for="Login.RememberMe" class="form-control">
                             <span asp-validation-for="Login.RememberMe"></span>
                         </div>
                         <div class="button-bottom">
@@ -85,7 +84,7 @@
                                 <h6>or</h6>
                             </div>
                             <button type="submit" class="w-100 btn btn-solid btn-outline"
-                                    onclick="window.location.href = 'register.html';">
+                                    onclick="window.location.href = 'Register.cshtml';">
                                 create account
                             </button>
                         </div>

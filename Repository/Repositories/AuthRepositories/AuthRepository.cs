@@ -21,7 +21,12 @@ namespace Repository.Repositories.AuthRepositories
         return _context.Users.FirstOrDefault(u => u.Token == token);
     }
 
-    public User Login(string email, string password)
+        public bool CheckEmail(string email)
+        {
+            return _context.Users.Any(u => u.Email == email);
+        }
+
+        public User Login(string email, string password)
     {
         User user = _context.Users.FirstOrDefault(u => u.Email == email);
         if (user != null && CryptoHelper.Crypto.VerifyHashedPassword(user.Password, password))
