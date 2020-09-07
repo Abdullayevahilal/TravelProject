@@ -129,5 +129,19 @@ namespace Repository.Repositories.ShoppingRepositories
         {
             throw new NotImplementedException();
         }
+
+        Product IProductRepository.GetProductsById(int id)
+        {
+            return _context.Products.Include("Photos")
+                                     .Include("Label")
+                                     .Include("Discounts")
+                                     .Include("Discounts.Discount")
+                                     .Include("Category")
+                                     .Include("Category.Department")
+                                     .Include("Reviews")
+                                     .FirstOrDefault(p => p.Status && p.Id == id);
+                                   //.Include("Options")
+
+        }
     }
 }
