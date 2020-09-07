@@ -143,12 +143,6 @@ C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Reposito
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Repository.pdb
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
 C:\Users\Hilal\source\repos\TravelProject\Admin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Hilal\source\repos\TravelProject\Admin\obj\Debug\netcoreapp3.1\Admin.MvcApplicationPartsAssemblyInfo.cache

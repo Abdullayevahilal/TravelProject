@@ -352,4 +352,7 @@ C:\Users\Asus\Desktop\Final Project\TravelProject\TravelProject\obj\Debug\netcor
 C:\Users\Asus\Desktop\Final Project\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Travel.csproj.CoreCompileInputs.cache
 C:\Users\Asus\Desktop\Final Project\TravelProject\TravelProject\obj\Debug\netcoreapp3.1\Travel.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Asus\Desktop\Final Project\TravelProject\TravelProject\bin\Debug\netcoreapp3.1\libman.json
+<<<<<<< HEAD
 C:\Users\Hilal\source\repos\TravelProject\TravelProject\bin\Debug\netcoreapp3.1\libman.json
+=======
+>>>>>>> a837ff1001e1d4cbdb4dffcc8146d3e2e1200ea1

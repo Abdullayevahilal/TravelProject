@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
 Template Name:Rica
@@ -785,7 +785,9 @@ header {
     background-color: white;
     position: relative; }
     header.light_header .main-navbar .nav-menu > li > a {
-      color: #222222; }
+      color: #222222;
+      padding-left: 30px;
+    }
     header.light_header .menu .header-right .front-setting {
       background-color: #f3f3f5; }
       header.light_header .menu .header-right .front-setting select {
