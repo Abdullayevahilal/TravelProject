@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Travel.Models;
+using Travel.Models.Account;
+using Travel.Models.Product;
 
 namespace Travel.Mapping
 {
@@ -23,6 +25,8 @@ namespace Travel.Mapping
                                                                          .OrderByDescending(d => d.Discount.AddedDate)
                                                                          .FirstOrDefault().Discount));
 
+            CreateMap<RegisterViewModel, User>();
+            CreateMap<ProductReview, LeaveReviewViewModel>();
         }
     }
 }

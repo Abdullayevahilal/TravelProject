@@ -26,8 +26,15 @@ using Travel.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Hilal\source\repos\TravelProject\TravelProject\Views\_ViewImports.cshtml"
+using Travel.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab0702", @"/Views/Shared/Modals/_AddCard.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"670556dbf1be6ca9b34028f08c3b7cf9557c6bb3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"48cb15260c7cebbbd48f5e82179da10d1e7dc71a", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Modals__AddCard : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -69,9 +76,9 @@ using Travel.Models;
             </div>
             <div class=""modal-body"">
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07024080", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07024272", async() => {
                 WriteLiteral("\r\n                    <div class=\"form-group\">\r\n                        <label for=\"a-month\">card type</label>\r\n                        <select id=\"a-month\" class=\"form-control\">\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07024558", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07024750", async() => {
                     WriteLiteral("add new card...");
                 }
                 );
@@ -88,7 +95,7 @@ using Travel.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07025932", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07026124", async() => {
                     WriteLiteral("credit card");
                 }
                 );
@@ -102,7 +109,7 @@ using Travel.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07026979", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07027171", async() => {
                     WriteLiteral("debit card");
                 }
                 );
@@ -116,7 +123,7 @@ using Travel.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07028025", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d6a8f2fc8c9a2fe9489f92aab879fc2b7ab07028217", async() => {
                     WriteLiteral("debit card with ATM pin");
                 }
                 );
